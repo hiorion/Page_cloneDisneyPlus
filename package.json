@@ -1,7 +1,8 @@
 {
   "devDependencies": {
-    "gulp": "^5.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
+    "imagemin-svgo": "^11.0.1",
     "sass": "^1.89.0",
     "watch": "^1.0.2"
   },
@@ -68,6 +69,7 @@
     "global-prefix": "^1.0.2",
     "glogg": "^2.2.0",
     "graceful-fs": "^4.2.11",
+    "gulp": "^4.0.2",
     "gulp-cli": "^3.0.0",
     "gulplog": "^2.2.0",
     "has-flag": "^4.0.0",
@@ -166,6 +168,7 @@
     "yargs-parser": "^20.2.9"
   },
   "scripts": {
+    "dev": "gulp watch",
     "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
